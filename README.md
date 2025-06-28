@@ -1,1 +1,1 @@
-# Reaction-Wheels
+# Reaction Wheels
