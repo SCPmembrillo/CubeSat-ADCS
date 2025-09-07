@@ -10,3 +10,6 @@ Since there are no external torques, we can set the derivative of the total angu
 We can then rearrange the equation to:
 
 And its explicit component-wise form is:
+<div align="center">
+  <img src="images/dwdt.svg" alt="images/dwdt.svg" width="950"/>
+</div>
