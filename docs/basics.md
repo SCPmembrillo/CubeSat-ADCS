@@ -26,6 +26,12 @@ And its explicit component-wise form is:
 
 ## Kynematics
 
+There are many ways to represent the attitude of the spacecraft, such as Euler Angles, Rodrigues Parameters, quaternions, etc. For this application, we'll focus on the nonsingular quaternion representation, defined as:
+
+
+
+
+
 ---
 
 <a name="footnote1">[1]</a> **Skew-Symmetric Matrix**:  
