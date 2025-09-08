@@ -28,11 +28,15 @@ And its explicit component-wise form is:
 
 There are many ways to represent the attitude of the spacecraft, such as Euler Angles, Rodrigues Parameters, quaternions, etc. For this application, we'll focus on the nonsingular quaternion representation, defined as:
 <div align="center">
-  <img src="images/quaternion.svg" alt="images/quaternion.svg" width="500"/>
+  <img src="images/quaternion.svg" alt="images/quaternion.svg" width="400"/>
 </div>
 
+The attitude kinematics of the spacecraft in terms of the quaternion are given by:
+<div align="center">
+  <img src="images/quat_kyne.svg" alt="images/quat_kyne.svg" width="400"/>
+</div>
 
-
+Ω<sup>[2](#footnote2)</sup>
 
 ---
 
@@ -40,5 +44,12 @@ There are many ways to represent the attitude of the spacecraft, such as Euler A
 S(ω) is the skew-symmetric matrix associated with the angular velocity vector ω, defined as:
 
 <div align="center">
-  <img src="images/skew.svg" alt="Skew-symmetric Matrix" width="400"/>
+  <img src="images/skew.svg" alt="images/skew.svg" width="400"/>
+</div>
+
+<a name="footnote2">[2]</a> **Skew-Symmetric Matrix**:  
+Ω is the skew-symmetric matrix associated with the angular velocity vector ω, defined as:
+
+<div align="center">
+  <img src="images/skew_4x4.svg" alt="images/skew_4x4.svg" width="400"/>
 </div>
