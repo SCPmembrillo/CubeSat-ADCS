@@ -27,7 +27,9 @@ And its explicit component-wise form is:
 ## Kynematics
 
 There are many ways to represent the attitude of the spacecraft, such as Euler Angles, Rodrigues Parameters, quaternions, etc. For this application, we'll focus on the nonsingular quaternion representation, defined as:
-
+<div align="center">
+  <img src="images/quaternion.svg" alt="images/quaternion.svg" width="500"/>
+</div>
 
 
 
