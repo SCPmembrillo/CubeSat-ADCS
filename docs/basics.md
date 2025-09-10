@@ -31,9 +31,13 @@ There are many ways to represent the attitude of the spacecraft, such as Euler A
   <img src="images/quaternion.svg" alt="images/quaternion.svg" width="300"/>
 </div>
 
-Where c_ij correponds to the elements of the rotation matrix, defined as a 313 rotation as:
+Here, \(c_{ij}\) denotes the elements of the rotation matrix, constructed using a **3-1-3 Euler rotation sequence**:
 
-The attitude kinematics of the spacecraft in terms of the quaternion are given by:
+<div align="center">
+  <img src="images/313rot.svg" alt="images/313rot.svg" width="750"/>
+</div>
+
+And the attitude kinematics of the spacecraft, expressed in terms of the quaternion, are given by:
 <div align="center">
   <img src="images/quat_kyne.svg" alt="images/quat_kyne.svg" width="300"/>
 </div>
