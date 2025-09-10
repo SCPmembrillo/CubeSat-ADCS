@@ -9,3 +9,12 @@ The project is pretty big, so I started with simulations:
 - [ ] Conducted simulations including the control systems
 
 The initial simulations are very basic: given the inertia matrix of the rotor and spacecraft, along with a prescribed torque profile, the goal is to simulate the CubeSat’s orientation starting from zero angular velocity.
+<div align="center">
+  <img src="docs/images/attitude.svg" alt="/images/H.svg" width="800"/>
+</div>
+<div align="center">
+  <img src="docs/images/w.svg" alt="/images/H.svg" width="800"/>
+</div>
+<div align="center">
+  <img src="docs/images/wr.svg" alt="/images/H.svg" width="800"/>
+</div>
