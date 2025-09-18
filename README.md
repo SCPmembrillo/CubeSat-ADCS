@@ -1,6 +1,6 @@
 # CubeSat Attitude Determination Control System (Currently Working on it!)
 ## Progress so far
-This is my most recent project, focused on developing the Attitude Determination and Control System (ADCS) for a 3U CubeSat. At this stage, the system is modeled using a Variable-Speed Control Moment Gyroscope (VSCMG) to control the satellite’s orientation.
+This is my most recent project, focused on developing the Attitude Determination and Control System (ADCS) for a CubeSat. At this stage, the system is modeled using a Variable-Speed Control Moment Gyroscope (VSCMG) to control the satellite’s orientation.
 
 <div align="center">
   <img src="docs/images/vscmg.png" alt="docs/images/vscmg.png" width="500"/>  
